@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset = "utf-8" />
+    <title>Page Title</title>
+    <link rel="stylesheet" href="stlyes.css"> 
+</head>
+<body>
+    <div class = "container">
+        <div class="nav-wrapper">
+            <div class ="left-side">
+                <div class="nav-link-wrapper active-nav-link">
+                    <a href = "index.html">Home</a>
+                </div>
+                
+                <div class="nav-link-wrapper">
+                    <a href = "about.html">about</a>
+                </div>
+            </div>
+            
+            <div class="right-side">
+                <div class="brande">
+                    <div>Peter Minbashian</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="content-wrapper">
+            <div class="portfolio-items-wrapper">
+            
+                <div class="portfolio-item-wrapper">
+                    
+                    <div class="portfolio-img-background" style="background-image:url(portfolio9.jpg)"> 
+                    </div>
+                    
+                    <div class="img-text-wrapper">
+                        
+                        
+                        <div class="subtitle">
+                                PROGRAMMING LANGUAGES 
+                            <br>
+                            <br>
+                            •   C
+                            <br>
+                            •   C++
+                            <br>
+                            •   Python
+                            <br>
+                            •   Java
+                            <br>
+                            •   MySQL
+                            <br>
+                            •   JavaScript
+                        </div>
+                    </div>   
+                </div>
+                
+                <div class="portfolio-item-wrapper">
+                    
+                    <div class="portfolio-img-background" style="background-image:url(Certificate.jpg)"> 
+                    </div>
+                    
+                    <div class="img-text-wrapper">
+                        
+                        <div class="subtitle">
+                            CERTIFICATE TRAINING
+                            <br>
+                            <br>
+                            •	Master SQL for Data Science (Udemy)
+                            <br>
+                            •	The Complete JavaScript course (Udemy)
+                            <br>
+                            •	C Programming: Master the Language (Udemy)
+                            <br>
+                            •	Microsoft Excel: From Beginning to Advanced (Udemy)                                   
+
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                
+                <div class="portfolio-item-wrapper">
+                    
+                    <div class="portfolio-img-background" style="background-image:url(graduation.jpg)"> 
+                    </div>
+                    
+                    <div class="img-text-wrapper">
+                        <div class="logo-wrapper">
+                            
+                        </div>
+                        
+                        <div class="subtitle">
+                            EDUCATION
+                            <br>
+                            <br>
+                            •   McMaster University Computer Engineering and Managment (Enrolled)
+                            <br>
+                            •   Michael Power St. Joseph: International Baccalaureate Program (Graduated)
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <div class="portfolio-item-wrapper">
+                    
+                    <div class="portfolio-img-background" style="background-image:url(workExperience.jpg)"> 
+                    </div>
+                    
+                    <div class="img-text-wrapper">
+                        <div class="title-wrapper">
+                            
+                        </div>
+                        
+                        <div class="subtitle">
+                            JOB EXPERIENCE
+                            <br>
+                            <p>McMaster Faculty of Engineering:  Teaching Assistant
+                            <br> 
+                            •	Teaching programming and CAD principals</p>
+                            <p>Canadian Scholarship Trust:  Account Service Representative
+                            <br> 
+                            •	Handeled Database Entry and Customer Relations
+                            </p> 
+                            
+                            <p>Starbucks:  Barista
+                            <br> 
+                            •	Serving and Communicating with Customers
+                            </p>
+
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                
+                
+                <div class="portfolio-item-wrapper">
+                    
+                    <div class="portfolio-img-background" style="background-image:url(ofsaa-3.jpg)"> 
+                    </div>
+                    
+                    <div class="img-text-wrapper">
+                        <div class="subtitle">
+                            ATHLETIC CAREER
+                            <br>
+                            <br>
+                            •   Cross Country and Track and Field Varsity Athlete (McMaster)
+                            <br>
+                            •	8th Place Finish at OFSAA Track and Field 
+                            <br>
+                            •	16th Place at OFSAA Cross Country 
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <div class="portfolio-item-wrapper">
+                    
+                    <div class="portfolio-img-background" style="background-image:url(Motor.jpg)"> 
+                    </div>
+                    
+                    <div class="img-text-wrapper">
+                        
+                        
+                        <div class="subtitle">
+                            PERSONAL PROJECT: AUTOMATED DOOR OPENER
+                            <br> 
+                            <br>
+                            •	Firmware designed and devloped using Arduino
+                            <br>
+                            •	CAD and 3D printing used to design and create components 
+                        </div>
+                    </div>
+                    
+                </div>
+                
+               
+                
+               
+                
+                
+            </div>
+        </div>
+        
+    </div>
+</body>
+
+<script>
+    const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper')
+    
+    portfolioItems.forEach(portfolioItem => {
+        portfolioItem.addEventListener('mouseover', () => {
+            portfolioItem.childNodes[1].classList.add("img-darken");
+        })
+        
+        portfolioItem.addEventListener('mouseout', () => {
+            portfolioItem.childNodes[1].classList.remove("img-darken");
+        })
+    })
+</script>
+
+</html>
