@@ -105,6 +105,11 @@ body{
     color: lightseagreen;
 }
 
+.img-text-wrapper:hover .heading{
+    font-weight: 600;
+    color: azure;
+}
+
 .img-darken{
     transition: 1s;
     filter: brightness(10%);
