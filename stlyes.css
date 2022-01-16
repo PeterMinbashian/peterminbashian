@@ -79,8 +79,8 @@ body{
     align-items: center;
     height: 100%;
     text-align: center;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 75px;
+    padding-right: 75px;
 }
 
 .img-text-wrapper .title-wrapper{
@@ -102,7 +102,6 @@ body{
 
 .img-text-wrapper:hover .subtitle{
     font-weight: 600;
-    font-size: 12px;
     color: lightseagreen;
 }
 
