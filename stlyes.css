@@ -79,8 +79,8 @@ body{
     align-items: center;
     height: 100%;
     text-align: center;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .img-text-wrapper .title-wrapper{
